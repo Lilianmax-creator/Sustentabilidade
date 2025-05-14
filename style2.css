@@ -31,7 +31,6 @@ footer {
     width: 25vw;
     height: 20vw;
     margin: 50px auto 20px auto; /* Centraliza horizontalmente */
-    border-radius: 40%;
     display: block; /* Garante que as imagens sejam tratadas como blocos */
     border: 2px solid #4CAF50; /* Adiciona uma borda verde */
 }
