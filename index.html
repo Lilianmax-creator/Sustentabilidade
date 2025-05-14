@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exposição Virtual - Comprando com Propósito</title>
+    <style>
+        /* Estilos gerais (desktop por padrão) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .capa, .objetivo {
+            width: 550px;
+            height: 550px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .iframe {
+            margin: 20px auto;
+            display: block;
+            border-radius: 5%;
+        }
+
+        input {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+            transition: 0.3s;
+        }
+
+        input:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        /* Dispositivos pequenos (até 768px) */
+        @media screen and (max-width: 768px) {
+            body {
+                font-size: 16px;
+                padding: 10px;
+            }
+
+            .capa, .objetivo {
+                width: 90%;
+                height: auto;
+            }
+
+            .iframe {
+                width: 100%;
+                height: auto;
+            }
+
+            input {
+                width: 80%;
+            }
+        }
+
+        /* Dispositivos muito pequenos (até 480px) */
+        @media screen and (max-width: 480px) {
+            body {
+                font-size: 14px;
+            }
+
+            .capa, .objetivo {
+                width: 100%;
+                height: auto;
+            }
+
+            .iframe {
+                width: 100%;
+                height: auto;
+            }
+
+            input {
+                width: 90%;
+            }
+        }
+
+        /* Dispositivos extremamente pequenos (até 320px, como iPhone 4) */
+        @media screen and (max-width: 320px) {
+            body {
+                font-size: 12px;
+            }
+
+            .capa, .objetivo {
+                width: 100%;
+                height: auto;
+            }
+
+            .iframe {
+                width: 100%;
+                height: auto;
+            }
+
+            input {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body action="estaçoes.html">
+    <header>
+        <h1>Exposição Virtual</h1>
+    <nav>
+        <ul>
+        </ul>
+        </nav>
+    </header>
+    <main>
+    <section class="intro">
+        <h2>Bem-vindo à Exposição!</h2>
+        <p>Aprenda sobre sustentabilidade e consumo consciente.</p>
+      
+    </section>
+    </main>
+    <img class="capa" src="IMG_5627.JPG" alt="">
+    <section class="objetivo">
+        <h1>Projeto de Intervenção: Estação Virtual
+        Sustentabilidade e Consumo Consciente: Comprando
+        com Propósito</h1>
+        <h2> Objetivo do Projeto</h2>
+        <p>
+            O objetivo deste projeto é promover a conscientização sobre os impactos do consumo,
+            ensinar hábitos mais sustentáveis e incentivar escolhas responsáveis no dia a dia dos
+            participantes. A Estação Virtual será uma plataforma interativa que envolve os visitantes em
+            diversas estações de aprendizagem e práticas, com recursos visuais, vídeo, quiz.
+            Prepare-se para repensar hábitos, conhecer novas alternativas e descobrir que consumir
+            com propósito é possível — é necessário.</p>
+    </section> 
+    <div> <iframe class="iframe" width="560" height="315" src="video.mp4" frameborder="0" allow="accelerometer; play; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <input type="button" value="Clique aqui para começar" onclick="window.location.href='teste.html'">
+    </div>    
+    <footer>
+        <p>© 2025 - Exposição Virtual "Comprando com Propósito"</p>
+    </footer>
+</body>
+</html>
+

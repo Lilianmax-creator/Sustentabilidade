@@ -1,0 +1,157 @@
+/* Estilos gerais (desktop por padrão) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center; /* Centraliza textos por padrão */
+}
+li{
+    list-style: none;
+}
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: end;
+    bottom: 0;
+    width: 100%;
+    margin-top: 250px;
+}
+
+.planeta, .planeta3, .planeta4, .planeta5 {
+    width: 25vw;
+    height: 20vw;
+    margin: 50px auto 20px auto; /* Centraliza horizontalmente */
+    border-radius: 40%;
+    display: block; /* Garante que as imagens sejam tratadas como blocos */
+    border: 2px solid #4CAF50; /* Adiciona uma borda verde */
+}
+
+.iframe, .iframe2, .iframe3 {
+    margin: 0 auto 100px auto; /* Centraliza horizontalmente */
+    border: 2px solid #4CAF50; /* Adiciona uma borda verde */
+    display: block; /* Garante que os iframes sejam tratados como blocos */
+}
+
+.a1, .a2, .a3 {
+    text-decoration: none;
+    background-color: #70b672;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    display: inline-block; /* Garante que os links sejam tratados como blocos */
+    text-align: center;
+    margin: 10px auto; /* Centraliza horizontalmente */
+}
+
+.a1:hover, .a2:hover, .a3:hover {
+    box-shadow: black 0px 0px 10px;
+    transition: 0.3s;
+}
+
+/* Dispositivos grandes (até 1200px) */
+@media screen and (max-width: 1200px) {
+    .planeta, .planeta3, .planeta4, .planeta5 {
+        width: 30vw;
+        height: auto;
+        margin: 20px auto; /* Centraliza horizontalmente */
+    }
+
+    .iframe, .iframe2, .iframe3 {
+        width: 80%;
+        height: auto;
+    }
+
+    .a1, .a2, .a3 {
+        width: 50%;
+    }
+}
+
+/* Dispositivos médios (até 768px) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .planeta, .planeta3, .planeta4, .planeta5 {
+        width: 90%;
+        height: auto;
+        margin: 20px auto; /* Centraliza horizontalmente */
+    }
+
+    .iframe, .iframe2, .iframe3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .a1, .a2, .a3 {
+        width: 70%;
+    }
+}
+
+/* Dispositivos pequenos (até 480px) */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .planeta, .planeta3, .planeta4, .planeta5 {
+        width: 100%;
+        height: auto;
+        margin: 20px auto; /* Centraliza horizontalmente */
+    }
+
+    .iframe, .iframe2, .iframe3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .a1, .a2, .a3 {
+        width: 90%;
+    }
+}
+
+/* Dispositivos extremamente pequenos (até 320px, como iPhone 4) */
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+
+    .planeta, .planeta3, .planeta4, .planeta5 {
+        width: 100%;
+        height: auto;
+        margin: 20px auto; /* Centraliza horizontalmente */
+    }
+
+    .iframe, .iframe2, .iframe3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .a1, .a2, .a3 {
+        width: 100%;
+    }
+}
+.bnt{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.bnt:hover {
+    background-color: #45a049;
+}
